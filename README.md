@@ -1,15 +1,14 @@
-# umi project
+# 项目说明
 
-## Getting Started
+## 
 
-Install dependencies,
+​	根据张立志老师课程《Umi 3+Dva入门实践 完成用户管理的CRUD应用(2020)》完成，教程B站链接
 
-```bash
-$ yarn
-```
+https://www.bilibili.com/video/BV1qz411z7s3。
 
-Start the dev server,
+​	几乎全部按照视频内容编写，仅有几项小改动如下：
 
-```bash
-$ yarn start
-```
+1. 修复了503响应不被识别为http-request错误的问题（添加判断，仅Response为空时才认为修改正确）。
+2. 删除操作为page直接调用服务完成（保留了通过Effect调用的代码）。
+
+感谢张立志老师的无私分享，教程非常适合零基础入门前端的开发者。特提交项目作业！致敬！
